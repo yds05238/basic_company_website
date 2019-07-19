@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link, graphql, StaticQuery } from 'gatsby'
 // import SearchBox from '../SearchBox'
-import Button from '@material-ui/core/Button';
 
 
 const NavBar = ({ toggleNavbar, isActive }) => (
@@ -45,17 +44,14 @@ const NavBar = ({ toggleNavbar, isActive }) => (
             <div className='navbar-item'>
               <div className='field is-grouped'>
                 <p className='control'>
-                  {/*
+
                   <Link
                     className='button is-primary is-outlined'
                     to='https://www.brightbuilding.app/'>
                     Sign In
                   </Link>
-                  */}
 
-                  <Button href='https://www.brightbuilding.app/' color="primary" variant="outlined">
-                    Sign In
-                </Button>
+
                 </p>
               </div>
             </div>
