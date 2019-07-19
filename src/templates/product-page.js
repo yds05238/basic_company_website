@@ -1,41 +1,40 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import HomePageTemplate from '../components/HomePageTemplate'
+import ProductPageTemplate from '../components/ProductPageTemplate'
 import Layout from '../components/Layout'
 
-
-
-const HomePage = ({ data }) => {
+const ProductPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
-      <HomePageTemplate
+      <ProductPageTemplate
         title={frontmatter.title}
         meta_title={frontmatter.meta_title}
         meta_description={frontmatter.meta_description}
+        pricing={frontmatter.pricing}
         heading={frontmatter.heading}
         description={frontmatter.description}
         offerings={frontmatter.offerings}
-        testimonials={frontmatter.testimonials}
       />
     </Layout>
   )
 }
 
-HomePage.propTypes = {
+ProductPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
     }),
   }),
+
 }
 
-export default HomePage
+export default ProductPage
 
-export const pageQuery = graphql`
-  query IndexPage($id: String!) {
+export const productPageQuery = graphql`
+  query ProductPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
@@ -49,9 +48,15 @@ export const pageQuery = graphql`
             text
           }
         }
-        testimonials {
-          author
-          quote
+        pricing {
+          heading
+          description
+          plans {
+            description
+            items
+            plan
+            price
+          }
         }
       }
     }

@@ -1,7 +1,7 @@
 ---
-templateKey: 'home-page'
-title: Bright Building LLC.
-meta_title: Home | Bright Building LLC
+templateKey: 'product-page'
+title: Product
+meta_title: Product | Bright Building LLC
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
@@ -55,19 +55,34 @@ offerings:
         Praesent elit lectus, iaculis vel odio vitae, bibendum auctor lacus. Suspendisse potenti. 
         In tempor, massa quis euismod convallis, felis elit sodales urna, at aliquet mi elit auctor 
         risus.
-testimonials:
-  - author: Vaibhav Sharma
-    quote: >-
-      Donec scelerisque magna nec condimentum porttitor. Aliquam vel diam sed diam luctus pretium. 
-      Sed quis egestas libero. Vestibulum nec venenatis ligula. 
-  - author: Subarashi San
-    quote: >-
-      Fusce porttitor vulputate enim, nec blandit magna gravida et. Etiam et dignissim ligula. 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+pricing:
+  description: >-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta justo justo, 
+    non semper odio cursus in. Curabitur ligula tortor, tristique non odio nec, imperdiet 
+    mattis leo. Vivamus aliquam rhoncus tortor vitae convallis. Aliquam non dui nibh. Nam 
+    a velit at enim sagittis pellentesque.
+  heading: Monthly subscriptions
+  plans:
+    - description: Nulla faucibus, leo a condimentum aliquam, libero leo vehicula arcu
+      items:
+        - Lorem ipsum dolor sit amet
+        - consectetur adipiscing elit
+        - Nunc finibus sem a sem ultrices
+      plan: Pro
+      price: '50'
+    - description: Mauris vitae dolor eu mauris malesuada cursus.
+      items:
+        - eget sagittis magna tempor
+        - Quisque pulvinar lorem molestie
+        - Proin at sagittis ex
+      plan: Enterprise
+      price: '80'
+    - description: Praesent elit lectus, iaculis vel odio vitae, bibendum auctor lacus.
+      items:
+        - Pellentesque luctus neque id mauris accumsan
+        - nec imperdiet justo eleifend
+        - Sed eget ornare orci
+      plan: Custom
+      price: '??'
 ---
-## Why Bright Building
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 
-mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa 
-quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.

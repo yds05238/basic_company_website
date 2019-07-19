@@ -1,14 +1,14 @@
 ---
 templateKey: about-page
 title: About Us
-meta_title: About Us | Gatsby Starter Business
+meta_title: About Us | Bright Building LLC
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
   venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
   consectetur purus sit amet fermentum.
 ---
-## Lorem ipsum dolor sit amet, consectetuer
+## Our Mission
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
 Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 
